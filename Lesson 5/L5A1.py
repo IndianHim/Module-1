@@ -1,0 +1,39 @@
+#A Weather Outfit Picker that asks about temperature, rain, wind, and puddles, 
+# then uses if and if-else statements to decide what outfit, umbrella, windbreaker, 
+# and shoes to wear, all while keeping every block properly indented.
+weather = input("What is the weather like today? ")
+Wind = int(input("How windy is it today out of ten? "))
+Rain = input("Has it rained in the past few days? ")
+if weather == "hot" :
+    print("You could wear shorts and a t-shirt today.")
+elif weather == "cold" :
+    print("You could wear sweatpants with a hoodie.")
+else :
+    print("You could wear shorts, a t-shirt, and a hoodie.")
+
+if Wind == 1 :
+    print("You could wear shorts and a t-shirt today.") 
+elif Wind == 2 :
+    print("You could wear shorts and a t-shirt today.") 
+elif Wind == 3 :
+    print("You could wear shorts and a t-shirt today.")     
+elif Wind == 4 :
+    print("You could wear shorts and a t-shirt today.") 
+elif Wind == 5 :
+    print("You could wear shorts, a t-shirt, and a hoodie.")    
+elif Wind == 6 :
+    print("You could wear shorts, a t-shirt, and a hoodie.")
+elif Wind == 7 :
+    print("You could wear shorts, a t-shirt, and a hoodie.")
+elif Wind == 8 :
+    print("You could wear sweatpants with a hoodie.")    
+elif Wind == 9 :
+    print("You could wear sweatpants with a hoodie.") 
+else : 
+    print("You could wear sweatpants with a hoodie.") 
+if Rain == "yes" :
+    print("Today you might want to wear some rain boots")
+else :
+    print("You are free to wear whatever shoes you would like. =)")    
+
+
