@@ -3,14 +3,16 @@
 # find the leftover grain, compare this year's harvest with last year's, 
 # and update the total with a bonus crop and seed reserve.
 
-field1 = 7
-field2 = 8
-field3 = 9
-field4 = 10
-field5 = 11
+#field1 = 7
+#field2 = 8
+#field3 = 9
+#field4 = 10
+#field5 = 11
 
-fields = 5
-total=(field1+field2+field3+field4+field5)
-average = (total)/5
-print(average)
-print(total)
+#fields = 5
+#total=(field1+field2+field3+field4+field5)
+#average = (total)/5
+#print(average)
+#print(total)
+
+num == 5 or 7
