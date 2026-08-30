@@ -1,6 +1,9 @@
-Bob = "4/16/05"
-Jeff = "5/20/05"
-Dylan ="2/29/04"
-Eric = "12/31/04"
-Ethan ="11/1/04"
-print(Bob, Jeff, Dylan, Eric, Ethan)
+hw=int(input(" How many Homeworks do you have pending? "))
+while hw != 0 :
+    v=input("Have you finished one of your homeworks. Yes or No? ") 
+    if v == "Yes" :
+        hw -= 1
+    else :
+        print("Please finish your homework.")
+if hw == 0 :
+    print("Congrats. You finished all your homework.")
